@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = "0.4.23"
+directories = "4.0.1"
+reqwest = { version = "0.11.14", features = ["json", "serde_json"] }
+structopt = { version = "0.3.26", features = ["color", "suggestions"] }
+termion = "2.0.1"
