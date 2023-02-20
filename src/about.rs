@@ -13,6 +13,6 @@ pub mod github {
     pub const CONTRIBUTERS: [Profile; 1] = [
         // Profile("<github-id>")
         Profile("akash1047"),
-        Profile("Vivekdas7"),
+        Profile("Vivekdas7"), // this is my personal profile may change in future
     ];
 }
